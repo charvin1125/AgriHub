@@ -1,0 +1,52 @@
+/* src/styles/Navbar.css */
+
+/* Navbar styling */
+.navbar {
+    background-color: #4CAF50 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+    color: white !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #3e8e41;
+    border-radius: 5px;
+    color: white !important;
+  }
+  
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  .nav-dropdown-menu {
+    background-color: #4CAF50;
+  }
+  
+  .nav-dropdown-menu .dropdown-item {
+    color: white !important;
+  }
+  
+  .nav-dropdown-menu .dropdown-item:hover {
+    background-color: #3e8e41;
+    color: white !important;
+  }
+  
